@@ -23,7 +23,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-MODEL = YOLO("C:/Users/Haluk/PycharmProjects/skin-concerns/model/last.pt")
+MODEL = YOLO("path-of-where-your-model-is-located")
 
 class_names = ['Acne', 'Dark Circle', 'Pigmentation', 'Spots', 'Wrinkle']
 
